@@ -1,0 +1,29 @@
+﻿
+    @model IEnumerable<Agenga.Models.Broker>
+@{
+    ViewBag.Title = "addBroker";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>Ajouter un nouveau collaborateur</h1>
+<div class="container">
+    <form action="#" method="POST" id="addBrokers" name="addbrokers">
+        <div class="row">
+            <label for="firstname">Prénom : </label>
+            <input type="text" name="firstname" id="firstname" placeholder="Michel" />
+        </div>
+        <div class="row">
+
+            <label for="lastname">Nom de famille : </label>
+            <input type="text" name="lastname" id="lastname" placeholder="Moulin" />
+        </div>
+        <div class="row">
+            <label for="Mail">Mail : </label>
+            <input type="text" name="Mail" id="Mail" placeholder="Michel.Moulin@sfr.fr" />
+        </div>
+        <div class="row">
+            <label for="phone">phone : </label>
+            <input type="text" name="phone" id="phone" placeholder="0123456789" />
+        </div>
+    </form>
+</div>
+
